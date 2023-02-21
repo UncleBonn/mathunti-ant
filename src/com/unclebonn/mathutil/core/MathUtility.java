@@ -39,7 +39,7 @@ public class MathUtility {
         
         //sống sót tới lệnh dưới đây thì sure n = 2..20
         long product = 1; //tích nhân dồn !!
-        for (int i = 2; i <= n; i++) {
+        for (int i = 2; i < n; i++) {
             product *= i;
         }
         return product;
